@@ -147,7 +147,8 @@ Before we use the model to make predictions, we note that out model uses logitic
 Using this model now, in line with Sam Corbett-Davies, Andrew Gelman and David Rothschild, we use it to make predictions for which respondents in our sample vote for Biden and Trump. We use the criterion that if a candidate as an estimate greater than 0.5, then they vote Biden. Our results are captured by the mean value of the 'model_prediction' variable, which is a high of 76.83%. Though our methodology was apt, such a high vote share for Biden is due to the innacuracies generated from the simplicity of our model.
 
 ```{r}
-#| include: false
+#| echo: false
+#| eval: true
 #| warning: false
 #| message: false
 
